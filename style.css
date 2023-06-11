@@ -1,0 +1,49 @@
+body{
+   width:100%;
+   min-height: 100vh;
+   overflow: hidden;
+   display: flex;
+   align-items:center;
+   justify-content: center;
+}
+
+.img{
+    position:absolute;
+    background-size: cover;
+    object-fit: cover;
+    height: 100vh;
+    width: 106%;
+    margin-top: -20px;
+    margin-left: -10px;
+
+    
+}
+h1{
+    color: aliceblue;
+    font-size: 5rem;
+    z-index: 100;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    margin-top: -150px;
+}
+
+#text{
+    position:absolute;
+    color: aliceblue;
+    z-index: 500;
+    font: 3rem;
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+   
+    
+}
+#text div{
+    padding: 20px;
+}
+
+.bigtxt{
+    font-size: 3rem;;
+}
+
+
